@@ -24,7 +24,7 @@ export default function App() {
 
                 <Text className="text-sm font-pregular text-gray-100 mt-7 text-center">Where Creativity Meets Innovation: Embark on a Journey of Limitless Exploration with Aora</Text>
 
-                <CustomButton title="Continue with Email" handlePress={() => router.push('/signup')} containerStyles="w-full mt-7"/>
+                <CustomButton title="Continue with Email" handlePress={() => router.push('/sign-in')} containerStyles="w-full mt-7"/>
                 
             </View>
         </ScrollView>
